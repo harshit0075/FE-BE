@@ -13,7 +13,7 @@ const Signup = () => {
         };
 
         //connecting FE to BE
-        fetch("https://fair-teal-scallop-yoke.cyclic.cloud/users/register", {
+        fetch("https://zany-erin-angler-yoke.cyclic.cloud/users/register", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
