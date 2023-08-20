@@ -12,7 +12,7 @@ import React, { useState } from 'react'
         };
 
         //connecting FE to BE
-        fetch("http://localhost:3535/users/login", {
+        fetch("https://fair-teal-scallop-yoke.cyclic.cloud/users/login", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
