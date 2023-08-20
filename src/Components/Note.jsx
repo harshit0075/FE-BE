@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 
 const Note = () => {
     useEffect(() => {
-  fetch("http://localhost:3535/notes/", {
+  fetch("https://notes-vkug.onrender.com/notes/", {
     method: "GET",
     headers: {
     "Content-Type": "application/json",

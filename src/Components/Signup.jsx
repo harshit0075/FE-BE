@@ -13,7 +13,7 @@ const Signup = () => {
         };
 
         //connecting FE to BE
-        fetch("https://zany-erin-angler-yoke.cyclic.cloud/users/register", {
+        fetch("https://notes-vkug.onrender.com/users/register", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"

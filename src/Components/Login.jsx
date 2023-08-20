@@ -12,7 +12,7 @@ import React, { useState } from 'react'
         };
 
         //connecting FE to BE
-        fetch("https://zany-erin-angler-yoke.cyclic.cloud/users/login", {
+        fetch("https://notes-vkug.onrender.com/users/login", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
